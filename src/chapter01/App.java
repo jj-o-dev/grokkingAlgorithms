@@ -2,7 +2,7 @@ package chapter01;
 
 public class App {
     public static void main(String[] args) {
-        int[] lista = new int[] {1, 2, 3, 6, 9};
+        int[] lista = new int[]{1, 2, 3, 6, 9};
         System.out.println(binarySearch(lista, 1));
     }
 
@@ -10,7 +10,7 @@ public class App {
         int init = 0;
         int end = vetor.length - 1;
         int mid, guess;
-        
+
         while (init <= end) {
             mid = (init + end) / 2;
             guess = vetor[mid];
