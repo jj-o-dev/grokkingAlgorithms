@@ -1,4 +1,4 @@
-package chapter03;
+package capitulo03;
 
 public class FatorialRecursivo2 {
     public static void main(String[] args) {
